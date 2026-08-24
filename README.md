@@ -9,17 +9,17 @@ under real cache behavior.
 
 ## Assignments
 
-### [a1 — Deadlock & Parallel Matrix Multiplication](./a1)
+### [a1 - Deadlock & Parallel Matrix Multiplication](./a1)
 Demonstrates and resolves a deadlock scenario using the Dining
 Philosophers problem, then compares sequential vs. parallel matrix
 multiplication to measure real speedup from multithreading.
 
-### [a2 — Mutual Exclusion Algorithms](./a2)
+### [a2 - Mutual Exclusion Algorithms](./a2)
 Implements the Filter lock and Lamport's Bakery algorithm from first
 principles — two different approaches to guaranteeing mutual exclusion
 without relying on hardware atomic instructions.
 
-### [a3 — Fine-Grained Concurrency & Cache Performance](./a3)
+### [a3- Fine-Grained Concurrency & Cache Performance](./a3)
 Builds a concurrently-safe linked list using hand-over-hand locking and a
 bounded queue, then analyzes how lock granularity and cache behavior
 affect real-world performance at scale.
